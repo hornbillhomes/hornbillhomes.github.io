@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css" />
+  <link rel="stylesheet" href="style.css" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cute+Font&family=Oswald:wght@200..700&display=swap"
+    rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&display=swap" rel="stylesheet">
+
+  <title>Hornbill Homes</title>
+</head>
+
+<body>
+
+  <header></header>
+
+  <main class="container">
+    <div class="text_wrapper cover_page_font">
+      <div class="list_text"><span>New Build</span> <span>Renovation</span> <span>Repairing</span></div>
+      <a class="link_text" id="open_dialog_button" data-target="contact_model" onclick="toggleModal(event)">Contact Us</a>
+    </div>
+  </main>
+
+  <footer></footer>
+
+
+  <dialog id="contact_model" class="contact_popup_font">
+    <article>
+      <header>
+        <p>
+          <strong>Thank you for your interest in Hornbill Homes Ltd.</strong>
+        </p>
+      </header>
+      
+      <p>
+        Whether you are looking to construct a new home, renovate your existing space, or need repairs, our dedicated team is here to help you every step of the way.
+      </p>
+
+      <b>
+        Get in Touch:
+      </b>
+
+      <p>
+        For immediate assistance, <a href="tel:+642102364278">give us a call</a>. Our friendly team is available 24/7.
+      </p>
+
+    </article>
+  </dialog>
+
+
+
+  <script src="site.js"></script>
+  <script src="model.js"></script>
+
+</body>
+
+</html>

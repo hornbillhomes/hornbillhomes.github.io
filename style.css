@@ -1,0 +1,73 @@
+.cover_page_font {
+    font-family: "Cute Font", sans-serif;
+    font-style: normal;
+}
+
+.contact_popup_font {
+    font-family: "Dosis", sans-serif;
+    font-style: normal;
+}
+
+
+html,
+body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2d42;
+}
+
+dialog {
+    background-color: #2b2d42;
+}
+
+dialog article header {
+    background-color: #adb5bd;
+}
+
+dialog article {
+    background-color: #ced4da;
+}
+
+.text_wrapper {
+    display: flex;
+    flex-direction: column;
+    /* align-items: flex-end; */
+    text-align: center;
+}
+
+.question_text {
+    text-align: center;
+    font-size: 60px;
+}
+
+.list_text span {
+    font-size: 50px;
+}
+
+.list_text span:first-of-type {
+    /* Styles for the first <span> */
+    padding-right: 10px;
+    color: #2a9d8f;
+}
+
+.list_text span:last-of-type {
+    /* Styles for the last <span> */
+    padding-left: 10px;
+    color: #e9c46a;
+}
+
+.list_text span:not(:first-of-type):not(:last-of-type) {
+    /* Styles for the rest of the <span> elements */
+    color: #f4a261;
+}
+
+.link_text {
+    /* align-self: flex-end; */
+    color: #edf2f4;
+    text-decoration: underline;
+    font-size: 30px;
+}
+
