@@ -6,7 +6,9 @@
 .contact_popup_font {
     font-family: "Dosis", sans-serif;
     font-style:normal;
-    font-size: 22px;
+    font-size: 24px;
+    color: #023047;
+    text-align: justify;
 }
 
 
@@ -25,11 +27,11 @@ dialog {
 }
 
 dialog article header {
-    background-color: #c2d3cd;
+    background-color: #84a59d;
 }
 
 dialog article {
-    background-color: #e0f2e9;
+    background-color: #fdf0d5;
 }
 
 .text_wrapper {
@@ -41,6 +43,10 @@ dialog article {
 .what_we_do_list span {
     font-size: 50px;
     justify-content: space-between;
+}
+
+.what_we_do_list:hover {
+    cursor: context-menu;
 }
 
 .what_we_do_list span:nth-child(1) {
@@ -64,7 +70,11 @@ dialog article {
 
 .contact_link {
     /* align-self: flex-end; */
-    color: #edf2f4;
+    color: #fdf0d5;
     text-decoration: underline;
     font-size: 30px;
+}
+
+.contact_link:hover {
+    cursor: pointer;
 }
